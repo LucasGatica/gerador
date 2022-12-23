@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de imagens</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+</head>
+<body>
+    <style>
+                    
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .containerP{
+            margin-top: 5%;
+        }
+
+        body{
+            background-color: whitesmoke;
+        }
+
+        .texto{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .roxo{
+           background-color:  rgb(70, 0, 70);
+          
+        }
+
+        .cardIA{
+          margin-top: 7%;
+          margin-left: auto;
+            margin-right: auto;
+          width: 256px;
+          height: 300px;
+        }
+
+    </style>
+
+
+    <section class="hero is-warning">
+        <div class="hero-body">
+          <p class="title center">
+            Gerador de Imagens
+          </p>
+         
+        </div>
+      </section>
+
+      <div class="container  containerP">
+        <div class="notification is-warning">
+
+
+            <p class="subtitle center" data-textinho>
+                Digite qual imagem você quer no prompt
+              </p>
+
+            <form form-data-form>
+            <div class="field texto ">
+                <p class="control has-icons-left has-icons-right">
+                  <input class="input" type="text" placeholder="ex: um urso pulando corda" form-data-input>
+                  <span class="icon is-small is-left">
+                    <i >T</i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-check"></i>
+                  </span>
+                </p>
+              </div>
+             
+              <div class="field center">
+                <p class="control">
+                  <button class="button is-link is-large " form-data-button>
+                    Gerar
+                  </button>
+                </p>
+              </div>
+
+            </form>  
+
+              <div class="card cardIA ">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="Placeholder image" card-img>
+                  </figure>
+                </div>
+                <div class="card-content">
+                 
+              
+                  <div class="content" card-texto>
+                     
+                    <br>
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+      </div>
+
+      <footer class="footer ">
+        <div class="content has-text-centered">
+          <p>
+           Feito por  <strong>Lucas Gatica</strong> <a href=""></a>
+          </p>
+        </div>
+      </footer>
+      <script src="js/main.js" defer></script>
+</body>
+</html>
