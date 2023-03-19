@@ -1,5 +1,5 @@
 
-console.log("seo")
+
 
 
 function onSubmit(e){
@@ -7,7 +7,7 @@ function onSubmit(e){
     document.querySelector('[data-textinho]').textContent = ""
 
     const prompt = document.querySelector('[form-data-input]').value;
-    const size = "small"
+    const size = "large"
 
         if(prompt === ''){
             alert('O prompt não pode estar vazio')
